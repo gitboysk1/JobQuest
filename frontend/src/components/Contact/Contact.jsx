@@ -36,26 +36,15 @@ function Contact() {
                 <div className="container">
                     <div className="title">
                         <div>
-                            <Link to={"https://www.facebook.com/ajay.kamar.716970"} target="_blank">
-                            Facebook:
-
-                                <FaFacebookF />
+                         youtube   
+                        <Link to={"https://www.youtube.com/@SurajKumar-xm5fs"} target="_blank">
+                            <FaYoutube />
+                            LinkedIn
                             </Link>
-                            <br />
-                            YouTube
-                            <Link to={"https://www.youtube.com/channel/UCMZ6lh2Ta_9_vX-OQx7kpDg"} target="_blank">
-                                <FaYoutube />
+                            <Link to={"www.linkedin.com/in/suraj-kumar-3a3914217"} target="_blank">
+                            <FaLinkedin />
                             </Link>
-                            <br />
-                            Linkedin
-                            <Link to={"https://www.linkedin.com/in/ajay-kumar-701872252/"} target="_blank">
-                                <FaLinkedin />
-                            </Link>
-                            <br />
-                            Instagram
-                            <Link to={"https://www.instagram.com/ajay.mathur.14/"} target="_blank">
-                                <RiInstagramFill />
-                            </Link>
+                                            
                         </div>
                     </div>
                     <div className="image">

@@ -9,20 +9,17 @@ const Footer = () => {
   const { isAuthorized } = useContext(Context);
   return (
     <footer className={isAuthorized ? "footerShow" : "footerHide"}>
-      <div>&copy; All Rights Reserved || Developed and Managed  By Ajay kumar.❤️</div>
+      <div>&copy; All Rights Reserved || Developed and Managed  By Suraj kumar.❤️</div>
       <div>
-        <Link to={"https://www.facebook.com/ajay.kamar.716970"} target="_blank">
-          <FaFacebookF />
-        </Link>
-        <Link to={"https://www.youtube.com/channel/UCMZ6lh2Ta_9_vX-OQx7kpDg"} target="_blank">
+        
+      
+        <Link to={"https://www.youtube.com/@SurajKumar-xm5fs"} target="_blank">
           <FaYoutube />
         </Link>
-        <Link to={"https://www.linkedin.com/in/ajay-kumar-701872252/"} target="_blank">
+        <Link to={"www.linkedin.com/in/suraj-kumar-3a3914217"} target="_blank">
           <FaLinkedin />
         </Link>
-        <Link to={"https://www.instagram.com/ajay.mathur.14/"} target="_blank">
-          <RiInstagramFill />
-        </Link>
+     
       </div>
     </footer>
   );
